@@ -27,13 +27,13 @@ The paper will report the outcome in these words, whichever it is.
 
 ## 2. Data
 
-- **Electricity:** ENTSO-E Transparency Platform, "Actual Total Load" and "Actual Generation per Production Type: Solar", downloaded with `entsoe-py` for the 15 systems of protocol-v1.0, covering 1 January 2019 – 1 July 2021. Sub-hourly series are averaged to hourly values in UTC. OPSD data (protocol-v1.0) are used up to 30 September 2020; the ENTSO-E download is used from 1 October 2020. Earlier ENTSO-E data are downloaded only for the consistency check in §3.
+- **Electricity:** Energy-Charts public API of Fraunhofer ISE (endpoint `public_power`, series "Load" and "Solar"; no registration required), downloaded for the 15 systems of protocol-v1.0, covering 1 January 2019 – 1 July 2021. Sub-hourly series are averaged to hourly values in UTC. Energy-Charts compiles its European series largely from ENTSO-E; its "Load" definition may differ from the OPSD/ENTSO-E series, which the consistency check Q0 quantifies. OPSD data (protocol-v1.0) are used up to 30 September 2020; the Energy-Charts download is used from 1 October 2020. Earlier Energy-Charts data are downloaded only for the consistency check in §3. A system whose Energy-Charts series is unavailable, or fails Q0 by more than 5% of mean load, is excluded from the extension, and the reason is reported.
 - **Policy:** OxCGRT `StringencyIndex_Average`, national, the same file and SHA-256 as protocol-v1.0.
 - **Extension test window:** 1 October 2020 – 30 June 2021. A system whose data end earlier (e.g. Great Britain after Brexit-related reporting changes) is kept for the days available and the coverage is reported.
 
 ## 3. Data quality rules (mechanical, applied to all systems before any metric is computed)
 
-- **Q0 consistency:** for January 2019 – September 2020, compare the ENTSO-E download with OPSD. A system is flagged if the median absolute hourly difference exceeds 1% of its mean load (or of mean daylight solar). Flagged systems remain in the analysis, and the flag is reported.
+- **Q0 consistency:** for January 2019 – September 2020, compare the Energy-Charts download with OPSD. A system is flagged if the median absolute hourly difference exceeds 1% of its mean load (or of mean daylight solar). Flagged systems remain in the analysis, and the flag is reported.
 - **Q1 spikes:** any load or solar value above 3 × that system's training-period (2015–2018) 99.9th percentile is set to missing, for targets and features alike.
 - **Q2 definition breaks:** a solar series whose maximum in the extension window exceeds 2.5 × its 2019 maximum is excluded from solar and net-load analyses. The load analysis of that system then uses load lags only.
 - The number of values removed and the systems excluded under each rule are reported. Results without Q1–Q2 are reported as a sensitivity analysis.
@@ -65,4 +65,4 @@ Any departure from this extension protocol is logged in `DEVIATIONS.md` (prefix 
 - The frozen models will drift further from 2019 conditions. Date and country fixed effects absorb common and level drift, and secondary analysis (i) absorbs linear country-specific drift.
 - Vaccination, weather and economic recovery co-vary with stringency over time; date fixed effects remove only their common component.
 - With 13–15 clusters, power to detect small effects is limited, which the three-outcome interpretation rule acknowledges.
-- The ENTSO-E data may differ from the OPSD processing; §3 Q0 quantifies this.
+- The Energy-Charts data may differ from the OPSD processing; §3 Q0 quantifies this, and the 5% rule in §2 excludes systems with large discrepancies.
