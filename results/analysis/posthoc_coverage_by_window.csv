@@ -1,0 +1,37 @@
+target,method,window,mean,min
+load,I1,after w8,0.891,0.461
+load,I1,pre,0.876,0.817
+load,I1,w0-4,0.766,0.515
+load,I1,w5-8,0.847,0.491
+load,I2,after w8,0.931,0.916
+load,I2,pre,0.943,0.908
+load,I2,w0-4,0.874,0.79
+load,I2,w5-8,0.949,0.911
+load,I3,after w8,0.907,0.866
+load,I3,pre,0.898,0.866
+load,I3,w0-4,0.848,0.754
+load,I3,w5-8,0.919,0.885
+net,I1,after w8,0.881,0.425
+net,I1,pre,0.874,0.783
+net,I1,w0-4,0.751,0.485
+net,I1,w5-8,0.833,0.469
+net,I2,after w8,0.932,0.917
+net,I2,pre,0.94,0.907
+net,I2,w0-4,0.881,0.82
+net,I2,w5-8,0.945,0.913
+net,I3,after w8,0.905,0.832
+net,I3,pre,0.897,0.853
+net,I3,w0-4,0.851,0.799
+net,I3,w5-8,0.911,0.861
+solar,I1,after w8,0.757,0.096
+solar,I1,pre,0.883,0.341
+solar,I1,w0-4,0.745,0.166
+solar,I1,w5-8,0.738,0.15
+solar,I2,after w8,0.934,0.905
+solar,I2,pre,0.864,0.797
+solar,I2,w0-4,0.882,0.826
+solar,I2,w5-8,0.892,0.789
+solar,I3,after w8,0.851,0.195
+solar,I3,pre,0.851,0.455
+solar,I3,w0-4,0.754,0.284
+solar,I3,w5-8,0.794,0.258

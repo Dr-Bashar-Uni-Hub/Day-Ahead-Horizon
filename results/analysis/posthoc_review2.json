@@ -1,0 +1,326 @@
+{
+ "harm_A_load": {
+  "beta10": 1.6567164172685294,
+  "lo10": 1.1525231199123147,
+  "hi10": 2.1393747506382352,
+  "p": 0.0,
+  "n": 4103,
+  "G": 15
+ },
+ "harm_C_load": {
+  "beta10": 0.9864405925264221,
+  "lo10": -0.32368649309285963,
+  "hi10": 2.2563153484966474,
+  "p": 0.1564156415641564,
+  "n": 4103,
+  "G": 15
+ },
+ "harm_perm_load": {
+  "beta10": 1.6567164172685294,
+  "p_perm": 0.0824
+ },
+ "harm_A_net": {
+  "beta10": 1.7560225272587109,
+  "lo10": 1.195014288500622,
+  "hi10": 2.305097590460704,
+  "p": 0.00010001000100010001,
+  "n": 3829,
+  "G": 14
+ },
+ "harm_C_net": {
+  "beta10": 1.376660732286587,
+  "lo10": 0.06080423255217654,
+  "hi10": 2.70566187282711,
+  "p": 0.0462046204620462,
+  "n": 3829,
+  "G": 14
+ },
+ "harm_perm_net": {
+  "beta10": 1.7560225272587109,
+  "p_perm": 0.0366
+ },
+ "harm_A_solar": {
+  "beta10": 0.36122585010187147,
+  "lo10": -0.6097423511662988,
+  "hi10": 1.3336033261418951,
+  "p": 0.44984498449844984,
+  "n": 3829,
+  "G": 14
+ },
+ "harm_C_solar": {
+  "beta10": 1.2672370650441234,
+  "lo10": -0.7369391365376361,
+  "hi10": 3.287875160855061,
+  "p": 0.23512351235123513,
+  "n": 3829,
+  "G": 14
+ },
+ "ops_window": [
+  {
+   "target": "load",
+   "method": "I1",
+   "window": "after w8",
+   "shortfall": 0.842191373754536,
+   "excess": 104.20288813976887
+  },
+  {
+   "target": "load",
+   "method": "I1",
+   "window": "pre",
+   "shortfall": 2.922109612048536,
+   "excess": 72.02916634486317
+  },
+  {
+   "target": "load",
+   "method": "I1",
+   "window": "w0-4",
+   "shortfall": 0.679671575258385,
+   "excess": 110.39824302195508
+  },
+  {
+   "target": "load",
+   "method": "I1",
+   "window": "w5-8",
+   "shortfall": 0.5461609097621525,
+   "excess": 106.38854860178195
+  },
+  {
+   "target": "load",
+   "method": "I2",
+   "window": "after w8",
+   "shortfall": 0.7117898247232981,
+   "excess": 95.88416538624844
+  },
+  {
+   "target": "load",
+   "method": "I2",
+   "window": "pre",
+   "shortfall": 0.5057669853451164,
+   "excess": 101.60789153688212
+  },
+  {
+   "target": "load",
+   "method": "I2",
+   "window": "w0-4",
+   "shortfall": 0.4485045284824165,
+   "excess": 131.43197674438204
+  },
+  {
+   "target": "load",
+   "method": "I2",
+   "window": "w5-8",
+   "shortfall": 0.3827509294612507,
+   "excess": 154.84195933647516
+  },
+  {
+   "target": "load",
+   "method": "I3",
+   "window": "after w8",
+   "shortfall": 0.9462099736458593,
+   "excess": 92.31774213043236
+  },
+  {
+   "target": "load",
+   "method": "I3",
+   "window": "pre",
+   "shortfall": 2.343961974642888,
+   "excess": 82.26353775150515
+  },
+  {
+   "target": "load",
+   "method": "I3",
+   "window": "w0-4",
+   "shortfall": 0.5155968024987989,
+   "excess": 120.67816783490909
+  },
+  {
+   "target": "load",
+   "method": "I3",
+   "window": "w5-8",
+   "shortfall": 0.37232617214390584,
+   "excess": 138.15167743763337
+  },
+  {
+   "target": "net",
+   "method": "I1",
+   "window": "after w8",
+   "shortfall": 1.0194895889638003,
+   "excess": 113.90020370738638
+  },
+  {
+   "target": "net",
+   "method": "I1",
+   "window": "pre",
+   "shortfall": 2.5549154979324253,
+   "excess": 78.95599983013726
+  },
+  {
+   "target": "net",
+   "method": "I1",
+   "window": "w0-4",
+   "shortfall": 1.0001012688556352,
+   "excess": 124.86966207485624
+  },
+  {
+   "target": "net",
+   "method": "I1",
+   "window": "w5-8",
+   "shortfall": 1.4520976541278194,
+   "excess": 128.74930626682678
+  },
+  {
+   "target": "net",
+   "method": "I2",
+   "window": "after w8",
+   "shortfall": 0.7911296272452505,
+   "excess": 124.64702972252205
+  },
+  {
+   "target": "net",
+   "method": "I2",
+   "window": "pre",
+   "shortfall": 0.5913499841895763,
+   "excess": 111.96052345211471
+  },
+  {
+   "target": "net",
+   "method": "I2",
+   "window": "w0-4",
+   "shortfall": 0.5677503938638275,
+   "excess": 154.87559313483953
+  },
+  {
+   "target": "net",
+   "method": "I2",
+   "window": "w5-8",
+   "shortfall": 0.4652508981155155,
+   "excess": 171.68311075866367
+  },
+  {
+   "target": "net",
+   "method": "I3",
+   "window": "after w8",
+   "shortfall": 1.0086224351016908,
+   "excess": 115.62307627607473
+  },
+  {
+   "target": "net",
+   "method": "I3",
+   "window": "pre",
+   "shortfall": 2.2241396261420943,
+   "excess": 87.67760620829911
+  },
+  {
+   "target": "net",
+   "method": "I3",
+   "window": "w0-4",
+   "shortfall": 0.7687282572260977,
+   "excess": 137.45173149628278
+  },
+  {
+   "target": "net",
+   "method": "I3",
+   "window": "w5-8",
+   "shortfall": 0.7639189206477199,
+   "excess": 149.88900645897166
+  }
+ ],
+ "cqr_window": [
+  {
+   "target": "load",
+   "window": "after w8",
+   "coverage": 0.8965382242354042
+  },
+  {
+   "target": "load",
+   "window": "pre",
+   "coverage": 0.8991065305101461
+  },
+  {
+   "target": "load",
+   "window": "w0-4",
+   "coverage": 0.793253078510926
+  },
+  {
+   "target": "load",
+   "window": "w5-8",
+   "coverage": 0.8469618055555556
+  },
+  {
+   "target": "solar",
+   "window": "after w8",
+   "coverage": 0.7198071928936793
+  },
+  {
+   "target": "solar",
+   "window": "pre",
+   "coverage": 0.8046868720152215
+  },
+  {
+   "target": "solar",
+   "window": "w0-4",
+   "coverage": 0.6792662296660812
+  },
+  {
+   "target": "solar",
+   "window": "w5-8",
+   "coverage": 0.7125445982518162
+  }
+ ],
+ "recovery": [
+  {
+   "target": "load",
+   "method": "I1",
+   "median_days": 61.0,
+   "recovered": 5
+  },
+  {
+   "target": "load",
+   "method": "I2",
+   "median_days": 152.0,
+   "recovered": 5
+  },
+  {
+   "target": "load",
+   "method": "I3",
+   "median_days": 74.5,
+   "recovered": 8
+  },
+  {
+   "target": "net",
+   "method": "I1",
+   "median_days": 55.0,
+   "recovered": 5
+  },
+  {
+   "target": "net",
+   "method": "I2",
+   "median_days": 38.0,
+   "recovered": 5
+  },
+  {
+   "target": "net",
+   "method": "I3",
+   "median_days": 138.0,
+   "recovered": 9
+  },
+  {
+   "target": "solar",
+   "method": "I1",
+   "median_days": 102.0,
+   "recovered": 5
+  },
+  {
+   "target": "solar",
+   "method": "I2",
+   "median_days": 98.5,
+   "recovered": 8
+  },
+  {
+   "target": "solar",
+   "method": "I3",
+   "median_days": 95.0,
+   "recovered": 7
+  }
+ ]
+}
