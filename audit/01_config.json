@@ -1,0 +1,40 @@
+{
+  "countries": [
+    "AT",
+    "BE",
+    "BG",
+    "CH",
+    "CZ",
+    "DE",
+    "DK",
+    "ES",
+    "FR",
+    "GB_GBN",
+    "GR",
+    "PT",
+    "RO",
+    "SI",
+    "SK"
+  ],
+  "rule": {
+    "max_missing": 0.01,
+    "min_solar_share": 0.01
+  },
+  "issue_hour_utc": 11,
+  "last_info_hour": 10,
+  "ffill_limit": 3,
+  "splits": {
+    "train": [
+      "2015-01-15",
+      "2018-12-31"
+    ],
+    "cal": [
+      "2019-01-01",
+      "2019-12-31"
+    ],
+    "test": [
+      "2020-01-01",
+      "2020-09-30"
+    ]
+  }
+}

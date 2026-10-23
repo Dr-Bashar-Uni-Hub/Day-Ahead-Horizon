@@ -1,0 +1,16 @@
+Included countries: 15 ['AT', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'ES', 'FR', 'GB_GBN', 'GR', 'PT', 'RO', 'SI', 'SK']
+  AT: 50064 rows
+  BE: 50064 rows
+  BG: 50064 rows
+  CH: 50064 rows
+  CZ: 50064 rows
+  DE: 50064 rows
+  DK: 50064 rows
+  ES: 50064 rows
+  FR: 50064 rows
+  GB_GBN: 50064 rows
+  GR: 50064 rows
+  PT: 50064 rows
+  RO: 50064 rows
+  SI: 50064 rows
+  SK: 50064 rows
