@@ -1,0 +1,1 @@
+Permutation load beta*1000 1.57 p_perm 0.3762

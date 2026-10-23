@@ -1,0 +1,1 @@
+perm load {'beta10': np.float64(-0.6077763136846717), 'p_perm': 0.426}

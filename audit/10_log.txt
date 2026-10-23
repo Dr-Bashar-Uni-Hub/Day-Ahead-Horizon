@@ -1,0 +1,15 @@
+LOCO load beta range [-0.94, -0.25]; min p 0.247; any CI above 0: False; max upper 1.61
+LOCO net beta range [-0.69, 0.25]; min p 0.459; any CI above 0: False; max upper 1.76
+target method   window  below  above  share_below
+  load     I1 after w8  1.185  0.842        0.654
+  load     I1      pre  1.305  2.922        0.479
+  load     I1     w0-4  4.312  0.680        0.875
+  load     I1     w5-8  3.506  0.546        0.752
+  load     I2 after w8  1.114  0.712        0.640
+  load     I2      pre  0.657  0.506        0.564
+  load     I2     w0-4  1.556  0.449        0.855
+  load     I2     w5-8  0.983  0.383        0.677
+  load     I3 after w8  1.441  0.946        0.717
+  load     I3      pre  1.059  2.344        0.561
+  load     I3     w0-4  2.214  0.516        0.867
+  load     I3     w5-8  2.041  0.372        0.699

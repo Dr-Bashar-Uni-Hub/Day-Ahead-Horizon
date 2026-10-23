@@ -1,0 +1,37 @@
+harmonized wave1 load A {'beta10': np.float64(1.6567), 'lo10': np.float64(1.1525), 'hi10': np.float64(2.1394), 'p': 0.0} | C {'beta10': np.float64(0.9864), 'lo10': np.float64(-0.3237), 'hi10': np.float64(2.2563), 'p': 0.1564}
+   perm A {'beta10': np.float64(1.6567164172685294), 'p_perm': 0.0824}
+harmonized wave1 net A {'beta10': np.float64(1.756), 'lo10': np.float64(1.195), 'hi10': np.float64(2.3051), 'p': 0.0001} | C {'beta10': np.float64(1.3767), 'lo10': np.float64(0.0608), 'hi10': np.float64(2.7057), 'p': 0.0462}
+   perm A {'beta10': np.float64(1.7560225272587109), 'p_perm': 0.0366}
+harmonized wave1 solar A {'beta10': np.float64(0.3612), 'lo10': np.float64(-0.6097), 'hi10': np.float64(1.3336), 'p': 0.4498} | C {'beta10': np.float64(1.2672), 'lo10': np.float64(-0.7369), 'hi10': np.float64(3.2879), 'p': 0.2351}
+target method   window  shortfall  excess
+  load     I1 after w8       0.84  104.20
+  load     I1      pre       2.92   72.03
+  load     I1     w0-4       0.68  110.40
+  load     I1     w5-8       0.55  106.39
+  load     I2 after w8       0.71   95.88
+  load     I2      pre       0.51  101.61
+  load     I2     w0-4       0.45  131.43
+  load     I2     w5-8       0.38  154.84
+  load     I3 after w8       0.95   92.32
+  load     I3      pre       2.34   82.26
+  load     I3     w0-4       0.52  120.68
+  load     I3     w5-8       0.37  138.15
+target   window  coverage
+  load after w8     0.897
+  load      pre     0.899
+  load     w0-4     0.793
+  load     w5-8     0.847
+ solar after w8     0.720
+ solar      pre     0.805
+ solar     w0-4     0.679
+ solar     w5-8     0.713
+target method  median_days  recovered
+  load     I1         61.0          5
+  load     I2        152.0          5
+  load     I3         74.5          8
+   net     I1         55.0          5
+   net     I2         38.0          5
+   net     I3        138.0          9
+ solar     I1        102.0          5
+ solar     I2         98.5          8
+ solar     I3         95.0          7

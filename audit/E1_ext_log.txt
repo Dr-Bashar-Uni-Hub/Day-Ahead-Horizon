@@ -1,0 +1,15 @@
+ext AT {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.0001), 'alpha_solar': np.float64(0.0001)}
+ext BE {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(3.1622776601683795), 'alpha_solar': np.float64(3.1622776601683795)}
+ext BG {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.0001), 'alpha_solar': np.float64(316.2277660168379)}
+ext CH {'Q1_load_removed': 0, 'Q1_solar_removed': 1920, 'Q2_solar_excluded': True, 'alpha_load': np.float64(10.0), 'alpha_solar': np.float64(0.0001)}
+ext CZ {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(1.0), 'alpha_solar': np.float64(1.0)}
+ext DE {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(1000.0), 'alpha_solar': np.float64(1000.0)}
+ext DK {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(3.1622776601683795), 'alpha_solar': np.float64(316.2277660168379)}
+ext ES {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.1), 'alpha_solar': np.float64(0.0001)}
+ext FR {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.31622776601683794), 'alpha_solar': np.float64(316.2277660168379)}
+ext GB_GBN {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(100.0), 'alpha_solar': np.float64(316.2277660168379)}
+ext GR {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(316.2277660168379), 'alpha_solar': np.float64(0.0001)}
+ext PT {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.0001), 'alpha_solar': np.float64(316.2277660168379)}
+ext RO {'Q1_load_removed': 0, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.0001), 'alpha_solar': np.float64(0.0001)}
+ext SI {'Q1_load_removed': 0, 'Q1_solar_removed': 1, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.31622776601683794), 'alpha_solar': np.float64(1000.0)}
+ext SK {'Q1_load_removed': 8, 'Q1_solar_removed': 0, 'Q2_solar_excluded': False, 'alpha_load': np.float64(0.0001), 'alpha_solar': np.float64(316.2277660168379)}

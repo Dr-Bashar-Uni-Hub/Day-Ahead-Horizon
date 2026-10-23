@@ -1,0 +1,4 @@
+Permutation net beta*1000 1.68 p_perm 0.2482
+Permutation solar beta*1000 0.35 p_perm 0.2162
+Window model load stringency*1000 0.42 (se 0.52) | weeks0-4 0.101 (se 0.030) | weeks5-8 0.031 (se 0.025)
+Window model net stringency*1000 0.90 (se 0.52) | weeks0-4 0.076 (se 0.027) | weeks5-8 0.008 (se 0.023)

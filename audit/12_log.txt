@@ -1,0 +1,14 @@
+load wave1 A {'beta10': np.float64(1.34), 'lo10': np.float64(0.91), 'hi10': np.float64(1.759), 'p': 0.0} | wave1 C {'beta10': np.float64(0.658), 'lo10': np.float64(-0.512), 'hi10': np.float64(1.787), 'p': 0.252} | wave2 E-C {'beta10': np.float64(-0.855), 'lo10': np.float64(-2.156), 'hi10': np.float64(0.449), 'p': 0.211}
+net wave1 A {'beta10': np.float64(1.47), 'lo10': np.float64(1.019), 'hi10': np.float64(1.91), 'p': 0.0} | wave1 C {'beta10': np.float64(0.929), 'lo10': np.float64(-0.369), 'hi10': np.float64(2.217), 'p': 0.145} | wave2 E-C {'beta10': np.float64(-0.423), 'lo10': np.float64(-1.772), 'hi10': np.float64(0.872), 'p': 0.514}
+solar wave1 A {'beta10': np.float64(0.454), 'lo10': np.float64(-0.508), 'hi10': np.float64(1.431), 'p': 0.329} | wave1 C {'beta10': np.float64(0.83), 'lo10': np.float64(-1.669), 'hi10': np.float64(3.341), 'p': 0.453} | wave2 E-C {'beta10': np.float64(0.597), 'lo10': np.float64(-0.905), 'hi10': np.float64(2.108), 'p': 0.411}
+target       window  coverage    width
+  load Jun-Sep 2020     0.936 2486.800
+  load          pre     0.886 2403.095
+  load         w0-4     0.805 2450.818
+  load         w5-8     0.888 2500.305
+  load       wave 2     0.883 2518.565
+   net Jun-Sep 2020     0.930 2896.461
+   net          pre     0.883 2800.227
+   net         w0-4     0.787 2856.589
+   net         w5-8     0.876 2892.905
+   net       wave 2     0.882 2962.768

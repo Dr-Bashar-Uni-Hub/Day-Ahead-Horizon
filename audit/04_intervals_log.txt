@@ -1,0 +1,15 @@
+intervals AT
+intervals BE
+intervals BG
+intervals CH
+intervals CZ
+intervals DE
+intervals DK
+intervals ES
+intervals FR
+intervals GB_GBN
+intervals GR
+intervals PT
+intervals RO
+intervals SI
+intervals SK

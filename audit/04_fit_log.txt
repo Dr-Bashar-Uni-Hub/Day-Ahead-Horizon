@@ -1,0 +1,15 @@
+fitted AT
+fitted BE
+fitted BG
+fitted CH
+fitted CZ
+fitted DE
+fitted DK
+fitted ES
+fitted FR
+fitted GB_GBN
+fitted GR
+fitted PT
+fitted RO
+fitted SI
+fitted SK

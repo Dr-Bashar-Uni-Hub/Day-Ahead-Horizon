@@ -1,0 +1,49 @@
+main load A beta*1000 1.56 [0.99, 2.11] p 0.0000
+main load B beta*1000 2.07 [1.08, 3.08] p 0.0000
+main load C beta*1000 1.14 [-0.39, 2.68] p 0.1484
+main net A beta*1000 1.72 [1.11, 2.32] p 0.0001
+main net B beta*1000 2.20 [1.22, 3.20] p 0.0001
+main net C beta*1000 1.49 [-0.04, 2.95] p 0.0628
+main solar A beta*1000 0.33 [-0.75, 1.43] p 0.5493
+main solar B beta*1000 1.03 [-0.18, 2.24] p 0.0958
+main solar C beta*1000 1.35 [-0.90, 3.56] p 0.2499
+placebo load A beta*1000 -0.23 [-0.66, 0.22] p 0.2971
+placebo load B beta*1000 0.39 [-0.18, 0.95] p 0.1835
+placebo load C beta*1000 0.17 [-0.79, 1.13] p 0.7444
+placebo net A beta*1000 0.23 [-0.21, 0.67] p 0.2779
+placebo net B beta*1000 0.56 [-0.10, 1.23] p 0.1013
+placebo net C beta*1000 0.34 [-0.90, 1.59] p 0.5836
+placebo solar A beta*1000 0.55 [-0.17, 1.28] p 0.1324
+placebo solar B beta*1000 0.62 [-0.55, 1.77] p 0.2600
+placebo solar C beta*1000 0.88 [-0.31, 2.07] p 0.1411
+window load str*1000 0.78 (0.47) w04 0.073 (0.027) w58 0.013 (0.024)
+window net str*1000 1.31 (0.49) w04 0.047 (0.024) w58 -0.008 (0.024)
+   target method window  coverage     width
+1    load     I1    all     0.894  2661.541
+3    load     I1   w0-4     0.790       NaN
+4    load     I1   w5-8     0.875       NaN
+6    load     I2    all     0.931  3317.482
+8    load     I2   w0-4     0.881       NaN
+9    load     I2   w5-8     0.950       NaN
+11   load     I3    all     0.903  2833.070
+13   load     I3   w0-4     0.852       NaN
+14   load     I3   w5-8     0.920       NaN
+16    net     I1    all     0.886  3102.076
+18    net     I1   w0-4     0.775       NaN
+19    net     I1   w5-8     0.858       NaN
+21    net     I2    all     0.932  3883.085
+23    net     I2   w0-4     0.887       NaN
+24    net     I2   w5-8     0.946       NaN
+26    net     I3    all     0.902  3304.731
+28    net     I3   w0-4     0.851       NaN
+29    net     I3   w5-8     0.914       NaN
+31  solar     I1    all     0.827  1486.916
+33  solar     I1   w0-4     0.792       NaN
+34  solar     I1   w5-8     0.788       NaN
+36  solar     I2    all     0.910  1890.984
+38  solar     I2   w0-4     0.880       NaN
+39  solar     I2   w5-8     0.900       NaN
+41  solar     I3    all     0.878  1642.964
+43  solar     I3   w0-4     0.795       NaN
+44  solar     I3   w5-8     0.840       NaN
+DONE

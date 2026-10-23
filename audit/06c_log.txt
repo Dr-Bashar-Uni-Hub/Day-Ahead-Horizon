@@ -1,0 +1,6 @@
+SpecC main load beta*1000 0.43 CI [-1.23, 2.07] p 0.6344
+SpecC main net beta*1000 0.81 CI [-0.69, 2.35] p 0.3512
+SpecC main solar beta*1000 1.09 CI [-0.83, 3.08] p 0.2929
+SpecC placebo load beta*1000 -0.02 CI [-1.02, 1.00] p 0.9630
+SpecC placebo net beta*1000 0.20 CI [-1.01, 1.43] p 0.7323
+SpecC placebo solar beta*1000 1.07 CI [-0.19, 2.34] p 0.0920

@@ -1,0 +1,22 @@
+ridge_I1_80 main load 0.0025 0.0
+ridge_I1_80 placebo load 1e-05 0.976
+ridge_I1_80 main solar 0.00059 0.2009
+ridge_I1_80 placebo solar 0.00117 0.0315
+ridge_I1_80 main net 0.00253 0.0
+ridge_I1_80 placebo net 0.00059 0.0422
+ridge_I1_95 main load 0.00075 0.0004
+ridge_I1_95 placebo load -0.00011 0.4508
+ridge_I1_95 main solar 0.00014 0.7006
+ridge_I1_95 placebo solar 0.00037 0.096
+ridge_I1_95 main net 0.00095 0.0
+ridge_I1_95 placebo net 0.00017 0.2206
+M2_seed1_I1_90 load 0.0025 0.0001
+M2_seed1_I1_90 solar 0.00059 0.1582
+M2_seed1_I1_90 net 0.00252 0.0
+M2_seed7_I1_90 load 0.00266 0.0
+M2_seed7_I1_90 solar 0.00059 0.1446
+M2_seed7_I1_90 net 0.00268 0.0
+M2_seed21_I1_90 load 0.00249 0.0001
+M2_seed21_I1_90 solar 0.00062 0.1329
+M2_seed21_I1_90 net 0.00254 0.0
+STEP 04 COMPLETE

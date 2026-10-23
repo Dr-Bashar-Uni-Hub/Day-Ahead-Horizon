@@ -1,0 +1,2 @@
+load {'beta': np.float64(0.0015579917077014485), 'p_perm': np.float64(0.0632)}
+net {'beta': np.float64(0.0017201582756026816), 'p_perm': np.float64(0.038)}
