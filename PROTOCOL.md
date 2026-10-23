@@ -1,9 +1,9 @@
-# Study Protocol (pre-registration draft v0.9 — NOT YET FROZEN)
+# Study Protocol (pre-registration, version 1.0 — FROZEN)
 
 **Working title:** Does lockdown intensity break forecast calibration? Cross-country evidence on prediction-interval reliability for load, solar generation and net load during the 2020 shift
 
 **Author:** Bashar ALHAJAHMAD (sole author)
-**Status:** Draft. The protocol becomes binding when committed and tagged `protocol-v1.0` in a public repository. No forecast metric for the 2020 test period may be computed before that tag exists.
+**Status:** Frozen. Binding from the timestamp of the `protocol-v1.0` tag in https://github.com/Dr-Bashar-Uni-Hub/Day-Ahead-Horizon. No forecast metric for the 2020 test period was computed before that tag.
 
 ---
 

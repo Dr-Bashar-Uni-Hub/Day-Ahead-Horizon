@@ -1,4 +1,4 @@
-# Calibration under shift — load, solar and net load (15 European systems)
+# Day-Ahead-Horizon: calibration under shift — load, solar and net load (15 European systems)
 
 Pre-registration and code. Read `PROTOCOL.md` first.
 
