@@ -1,0 +1,197 @@
+[
+ {
+  "country": "AT",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 0.0001
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.005,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "BE",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 3.1622776601683795,
+   "solar": 3.1622776601683795
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "BG",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "CH",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 10.0,
+   "solar": 31.622776601683793
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "CZ",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 1.0,
+   "solar": 1.0
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "DE",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 1000.0,
+   "solar": 1000.0
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "DK",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 3.1622776601683795,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.01,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "ES",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.1,
+   "solar": 0.0001
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "FR",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.31622776601683794,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "GB_GBN",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 100.0,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "GR",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 316.2277660168379,
+   "solar": 0.0001
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "PT",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.005,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "RO",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 0.0001
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "SI",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.31622776601683794,
+   "solar": 1000.0
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.005,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "SK",
+  "setup": "main",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ }
+]

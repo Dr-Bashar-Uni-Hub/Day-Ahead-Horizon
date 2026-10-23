@@ -1,0 +1,13 @@
+RQ1 main load A {'beta': np.float64(0.00157), 'p_wcr': np.float64(0.0), 'ci_lo': np.float64(0.00106), 'ci_hi': np.float64(0.00208)}
+RQ1 main load B {'beta': np.float64(0.00186), 'p_wcr': np.float64(0.0021), 'ci_lo': np.float64(0.00093), 'ci_hi': np.float64(0.00282)}
+RQ1 main solar A {'beta': np.float64(0.00035), 'p_wcr': np.float64(0.43724), 'ci_lo': np.float64(-0.00054), 'ci_hi': np.float64(0.00127)}
+RQ1 main solar B {'beta': np.float64(0.00083), 'p_wcr': np.float64(0.13131), 'ci_lo': np.float64(-0.00024), 'ci_hi': np.float64(0.00186)}
+RQ1 main net A {'beta': np.float64(0.00168), 'p_wcr': np.float64(0.0), 'ci_lo': np.float64(0.00114), 'ci_hi': np.float64(0.00222)}
+RQ1 main net B {'beta': np.float64(0.00195), 'p_wcr': np.float64(0.0024), 'ci_lo': np.float64(0.001), 'ci_hi': np.float64(0.00291)}
+RQ1 placebo load A {'beta': np.float64(-0.00013), 'p_wcr': np.float64(0.52005), 'ci_lo': np.float64(-0.00054), 'ci_hi': np.float64(0.00028)}
+RQ1 placebo load B {'beta': np.float64(0.00026), 'p_wcr': np.float64(0.39614), 'ci_lo': np.float64(-0.00035), 'ci_hi': np.float64(0.00088)}
+RQ1 placebo solar A {'beta': np.float64(0.00064), 'p_wcr': np.float64(0.08851), 'ci_lo': np.float64(-0.00011), 'ci_hi': np.float64(0.00136)}
+RQ1 placebo solar B {'beta': np.float64(0.00062), 'p_wcr': np.float64(0.20502), 'ci_lo': np.float64(-0.00038), 'ci_hi': np.float64(0.00162)}
+RQ1 placebo net A {'beta': np.float64(0.00032), 'p_wcr': np.float64(0.15422), 'ci_lo': np.float64(-0.00013), 'ci_hi': np.float64(0.00078)}
+RQ1 placebo net B {'beta': np.float64(0.00045), 'p_wcr': np.float64(0.19162), 'ci_lo': np.float64(-0.00022), 'ci_hi': np.float64(0.00115)}
+STEP 03 COMPLETE

@@ -1,0 +1,197 @@
+[
+ {
+  "country": "AT",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 100.0
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "BE",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 1.0,
+   "solar": 100.0
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "BG",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 0.03162277660168379,
+   "solar": 100.0
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "CH",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 3.1622776601683795,
+   "solar": 0.0001
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.005,
+   "net": 0.01
+  }
+ },
+ {
+  "country": "CZ",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 1.0,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "DE",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 1.0,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.01
+  }
+ },
+ {
+  "country": "DK",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 10.0,
+   "solar": 1000.0
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "ES",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 0.31622776601683794,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.005,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "FR",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 316.2277660168379
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "GB_GBN",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 10.0,
+   "solar": 3.1622776601683795
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "GR",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 0.0001
+  },
+  "aci_gamma": {
+   "load": 0.001,
+   "solar": 0.001,
+   "net": 0.001
+  }
+ },
+ {
+  "country": "PT",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 1.0,
+   "solar": 1000.0
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.01,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "RO",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 1.0,
+   "solar": 0.1
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "SI",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 1000.0
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.005
+  }
+ },
+ {
+  "country": "SK",
+  "setup": "placebo",
+  "ridge_alpha": {
+   "load": 0.0001,
+   "solar": 31.622776601683793
+  },
+  "aci_gamma": {
+   "load": 0.005,
+   "solar": 0.001,
+   "net": 0.01
+  }
+ }
+]

@@ -1,0 +1,15 @@
+placebo AT {'country': 'AT', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(100.0)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+placebo BE {'country': 'BE', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(1.0), 'solar': np.float64(100.0)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+placebo BG {'country': 'BG', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(0.03162277660168379), 'solar': np.float64(100.0)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+placebo CH {'country': 'CH', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(3.1622776601683795), 'solar': np.float64(0.0001)}, 'aci_gamma': {'load': 0.005, 'solar': 0.005, 'net': 0.01}}
+placebo CZ {'country': 'CZ', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(1.0), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+placebo DE {'country': 'DE', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(1.0), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.01}}
+placebo DK {'country': 'DK', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(10.0), 'solar': np.float64(1000.0)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+placebo ES {'country': 'ES', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(0.31622776601683794), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.001, 'solar': 0.005, 'net': 0.001}}
+placebo FR {'country': 'FR', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+placebo GB_GBN {'country': 'GB_GBN', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(10.0), 'solar': np.float64(3.1622776601683795)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+placebo GR {'country': 'GR', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(0.0001)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+placebo PT {'country': 'PT', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(1.0), 'solar': np.float64(1000.0)}, 'aci_gamma': {'load': 0.005, 'solar': 0.01, 'net': 0.005}}
+placebo RO {'country': 'RO', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(1.0), 'solar': np.float64(0.1)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+placebo SI {'country': 'SI', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(1000.0)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+placebo SK {'country': 'SK', 'setup': 'placebo', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(31.622776601683793)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.01}}

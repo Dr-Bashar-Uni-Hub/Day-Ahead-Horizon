@@ -1,0 +1,15 @@
+main AT {'country': 'AT', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(0.0001)}, 'aci_gamma': {'load': 0.005, 'solar': 0.005, 'net': 0.005}}
+main BE {'country': 'BE', 'setup': 'main', 'ridge_alpha': {'load': np.float64(3.1622776601683795), 'solar': np.float64(3.1622776601683795)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.001}}
+main BG {'country': 'BG', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+main CH {'country': 'CH', 'setup': 'main', 'ridge_alpha': {'load': np.float64(10.0), 'solar': np.float64(31.622776601683793)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+main CZ {'country': 'CZ', 'setup': 'main', 'ridge_alpha': {'load': np.float64(1.0), 'solar': np.float64(1.0)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.005}}
+main DE {'country': 'DE', 'setup': 'main', 'ridge_alpha': {'load': np.float64(1000.0), 'solar': np.float64(1000.0)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+main DK {'country': 'DK', 'setup': 'main', 'ridge_alpha': {'load': np.float64(3.1622776601683795), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.01, 'solar': 0.001, 'net': 0.005}}
+main ES {'country': 'ES', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.1), 'solar': np.float64(0.0001)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+main FR {'country': 'FR', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.31622776601683794), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.005}}
+main GB_GBN {'country': 'GB_GBN', 'setup': 'main', 'ridge_alpha': {'load': np.float64(100.0), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+main GR {'country': 'GR', 'setup': 'main', 'ridge_alpha': {'load': np.float64(316.2277660168379), 'solar': np.float64(0.0001)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.001}}
+main PT {'country': 'PT', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.001, 'solar': 0.005, 'net': 0.001}}
+main RO {'country': 'RO', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(0.0001)}, 'aci_gamma': {'load': 0.005, 'solar': 0.001, 'net': 0.001}}
+main SI {'country': 'SI', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.31622776601683794), 'solar': np.float64(1000.0)}, 'aci_gamma': {'load': 0.001, 'solar': 0.005, 'net': 0.001}}
+main SK {'country': 'SK', 'setup': 'main', 'ridge_alpha': {'load': np.float64(0.0001), 'solar': np.float64(316.2277660168379)}, 'aci_gamma': {'load': 0.001, 'solar': 0.001, 'net': 0.005}}
